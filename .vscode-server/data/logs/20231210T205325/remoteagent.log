@@ -1,0 +1,8 @@
+2023-12-10 20:53:25.199 [info] 
+
+
+
+
+2023-12-10 20:53:25.216 [info] Extension host agent started.
+2023-12-10 20:53:25.466 [error] [127.0.0.1][9cacbf0e][ManagementConnection] Unknown reconnection token (never seen).
+2023-12-10 20:58:25.218 [info] Last EH closed, shutting down

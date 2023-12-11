@@ -1,0 +1,22 @@
+[2023-12-08T22:01:16.073+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: multi_cities_dag.transform_load_weather_tokyo manual__2023-12-08T22:00:32.993923+00:00 [queued]>
+[2023-12-08T22:01:16.081+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: multi_cities_dag.transform_load_weather_tokyo manual__2023-12-08T22:00:32.993923+00:00 [queued]>
+[2023-12-08T22:01:16.081+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 3
+[2023-12-08T22:01:16.101+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): transform_load_weather_tokyo> on 2023-12-08 22:00:32.993923+00:00
+[2023-12-08T22:01:16.106+0000] {standard_task_runner.py:57} INFO - Started process 18740 to run task
+[2023-12-08T22:01:16.112+0000] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'multi_cities_dag', 'transform_load_weather_tokyo', 'manual__2023-12-08T22:00:32.993923+00:00', '--job-id', '84', '--raw', '--subdir', 'DAGS_FOLDER/multi_cities_dag.py', '--cfg-path', '/tmp/tmpgv4kjwag']
+[2023-12-08T22:01:16.113+0000] {standard_task_runner.py:85} INFO - Job 84: Subtask transform_load_weather_tokyo
+[2023-12-08T22:01:16.153+0000] {task_command.py:416} INFO - Running <TaskInstance: multi_cities_dag.transform_load_weather_tokyo manual__2023-12-08T22:00:32.993923+00:00 [running]> on host ip-172-31-85-231.ec2.internal
+[2023-12-08T22:01:16.227+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='sam@example.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='multi_cities_dag' AIRFLOW_CTX_TASK_ID='transform_load_weather_tokyo' AIRFLOW_CTX_EXECUTION_DATE='2023-12-08T22:00:32.993923+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-08T22:00:32.993923+00:00'
+[2023-12-08T22:01:16.233+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/usr/local/lib/python3.10/dist-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/ubuntu/airflow/dags/multi_cities_dag.py", line 21, in transform_load_data
+    city = data["name"]
+TypeError: 'NoneType' object is not subscriptable
+[2023-12-08T22:01:16.238+0000] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=multi_cities_dag, task_id=transform_load_weather_tokyo, execution_date=20231208T220032, start_date=20231208T220116, end_date=20231208T220116
+[2023-12-08T22:01:16.254+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 84 for task transform_load_weather_tokyo ('NoneType' object is not subscriptable; 18740)
+[2023-12-08T22:01:16.285+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-12-08T22:01:16.298+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,28 @@
+2023-12-10 18:48:14.803 [info] 
+
+
+
+
+2023-12-10 18:48:14.832 [info] Extension host agent started.
+2023-12-10 18:48:15.211 [info] [127.0.0.1][6300095f][ManagementConnection] New connection established.
+2023-12-10 18:48:15.387 [info] [127.0.0.1][63272fd3][ExtensionHostConnection] New connection established.
+2023-12-10 18:48:15.638 [info] [127.0.0.1][63272fd3][ExtensionHostConnection] <1004> Launched Extension Host Process.
+2023-12-10 18:48:51.731 [info] [127.0.0.1][6300095f][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-12-10 18:48:51.764 [info] [127.0.0.1][63272fd3][ExtensionHostConnection] <1004> Extension Host Process exited with code: 0, signal: null.
+2023-12-10 18:48:51.765 [info] Cancelling previous shutdown timeout
+2023-12-10 18:48:51.765 [info] Last EH closed, waiting before shutting down
+2023-12-10 18:48:55.460 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-12-10 18:48:55.461 [info] Cancelling previous shutdown timeout
+2023-12-10 18:48:56.328 [info] [127.0.0.1][9cacbf0e][ManagementConnection] New connection established.
+2023-12-10 18:48:56.463 [info] [127.0.0.1][6f763ce0][ExtensionHostConnection] New connection established.
+2023-12-10 18:48:56.469 [info] [127.0.0.1][6f763ce0][ExtensionHostConnection] <1158> Launched Extension Host Process.
+2023-12-10 18:53:55.462 [info] New EH opened, aborting shutdown
+2023-12-10 19:03:05.506 [error] AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5)
+2023-12-10 19:53:06.328 [info] [127.0.0.1][6f763ce0][ExtensionHostConnection] The client has reconnected.
+2023-12-10 19:53:08.679 [info] [127.0.0.1][9cacbf0e][ManagementConnection] The client has reconnected.
+2023-12-10 19:53:13.365 [info] [127.0.0.1][9cacbf0e][ManagementConnection] The client has reconnected.
+2023-12-10 19:58:13.565 [info] [127.0.0.1][6f763ce0][ExtensionHostConnection] <1158> Extension Host Process exited with code: 0, signal: null.
+2023-12-10 19:58:13.565 [info] Last EH closed, waiting before shutting down
+2023-12-10 20:03:13.567 [info] Last EH closed, shutting down

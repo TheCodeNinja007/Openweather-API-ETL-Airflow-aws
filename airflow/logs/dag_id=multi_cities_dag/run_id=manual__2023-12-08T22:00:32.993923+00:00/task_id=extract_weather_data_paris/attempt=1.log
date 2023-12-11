@@ -1,0 +1,16 @@
+[2023-12-08T22:00:57.752+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: multi_cities_dag.extract_weather_data_paris manual__2023-12-08T22:00:32.993923+00:00 [queued]>
+[2023-12-08T22:00:57.760+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: multi_cities_dag.extract_weather_data_paris manual__2023-12-08T22:00:32.993923+00:00 [queued]>
+[2023-12-08T22:00:57.760+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 3
+[2023-12-08T22:00:57.780+0000] {taskinstance.py:1382} INFO - Executing <Task(SimpleHttpOperator): extract_weather_data_paris> on 2023-12-08 22:00:32.993923+00:00
+[2023-12-08T22:00:57.784+0000] {standard_task_runner.py:57} INFO - Started process 18589 to run task
+[2023-12-08T22:00:57.791+0000] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'multi_cities_dag', 'extract_weather_data_paris', 'manual__2023-12-08T22:00:32.993923+00:00', '--job-id', '78', '--raw', '--subdir', 'DAGS_FOLDER/multi_cities_dag.py', '--cfg-path', '/tmp/tmpc06z97ao']
+[2023-12-08T22:00:57.793+0000] {standard_task_runner.py:85} INFO - Job 78: Subtask extract_weather_data_paris
+[2023-12-08T22:00:57.831+0000] {task_command.py:416} INFO - Running <TaskInstance: multi_cities_dag.extract_weather_data_paris manual__2023-12-08T22:00:32.993923+00:00 [running]> on host ip-172-31-85-231.ec2.internal
+[2023-12-08T22:00:57.891+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='sam@example.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='multi_cities_dag' AIRFLOW_CTX_TASK_ID='extract_weather_data_paris' AIRFLOW_CTX_EXECUTION_DATE='2023-12-08T22:00:32.993923+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-08T22:00:32.993923+00:00'
+[2023-12-08T22:00:57.892+0000] {http.py:164} INFO - Calling HTTP method
+[2023-12-08T22:00:57.896+0000] {base.py:73} INFO - Using connection ID 'weathermap_api' for task execution.
+[2023-12-08T22:00:57.951+0000] {base.py:73} INFO - Using connection ID 'weathermap_api' for task execution.
+[2023-12-08T22:00:58.076+0000] {http.py:203} INFO - {"coord":{"lon":2.3488,"lat":48.8534},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01n"}],"base":"stations","main":{"temp":279.47,"feels_like":276.86,"temp_min":277.62,"temp_max":281.03,"pressure":1013,"humidity":97},"visibility":10000,"wind":{"speed":3.6,"deg":240},"clouds":{"all":0},"dt":1702072829,"sys":{"type":2,"id":2036844,"country":"FR","sunrise":1702020635,"sunset":1702050862},"timezone":3600,"id":2988507,"name":"Paris","cod":200}
+[2023-12-08T22:00:58.095+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=multi_cities_dag, task_id=extract_weather_data_paris, execution_date=20231208T220032, start_date=20231208T220057, end_date=20231208T220058
+[2023-12-08T22:00:58.122+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-08T22:00:58.139+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

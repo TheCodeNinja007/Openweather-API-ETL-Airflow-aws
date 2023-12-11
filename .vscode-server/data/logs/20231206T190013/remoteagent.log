@@ -1,0 +1,71 @@
+2023-12-06 19:00:13.714 [info] 
+
+
+
+
+2023-12-06 19:00:13.714 [info] Extension host agent started.
+2023-12-06 19:00:13.716 [info] Started initializing default profile extensions in extensions installation folder. file:///home/ubuntu/.vscode-server/extensions
+2023-12-06 19:00:13.805 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/ubuntu/.vscode-server/extensions
+2023-12-06 19:00:14.205 [info] [127.0.0.1][f68283fd][ManagementConnection] New connection established.
+2023-12-06 19:00:14.428 [info] [127.0.0.1][c9fabd8b][ExtensionHostConnection] New connection established.
+2023-12-06 19:00:14.750 [info] [127.0.0.1][c9fabd8b][ExtensionHostConnection] <6304> Launched Extension Host Process.
+2023-12-06 19:04:37.043 [info] [127.0.0.1][f68283fd][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-12-06 19:04:37.082 [info] [127.0.0.1][c9fabd8b][ExtensionHostConnection] <6304> Extension Host Process exited with code: 0, signal: null.
+2023-12-06 19:04:37.083 [info] Cancelling previous shutdown timeout
+2023-12-06 19:04:37.083 [info] Last EH closed, waiting before shutting down
+2023-12-06 19:04:43.519 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-12-06 19:04:43.519 [info] Cancelling previous shutdown timeout
+2023-12-06 19:04:44.072 [info] [127.0.0.1][c866474f][ManagementConnection] New connection established.
+2023-12-06 19:04:44.283 [info] [127.0.0.1][dfac85c2][ExtensionHostConnection] New connection established.
+2023-12-06 19:04:44.291 [info] [127.0.0.1][dfac85c2][ExtensionHostConnection] <6794> Launched Extension Host Process.
+2023-12-06 19:07:49.164 [info] [127.0.0.1][dfac85c2][ExtensionHostConnection] The client has reconnected.
+2023-12-06 19:07:51.132 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-12-06 19:07:51.133 [info] Cancelling previous shutdown timeout
+2023-12-06 19:07:51.639 [info] [127.0.0.1][c866474f][ManagementConnection] The client has reconnected.
+2023-12-06 19:07:54.076 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-12-06 19:07:54.076 [info] Cancelling previous shutdown timeout
+2023-12-06 19:07:54.517 [info] [127.0.0.1][c866474f][ManagementConnection] The client has reconnected.
+2023-12-06 19:08:30.196 [info] [127.0.0.1][dfac85c2][ExtensionHostConnection] The client has reconnected.
+2023-12-06 19:12:54.078 [info] New EH opened, aborting shutdown
+2023-12-06 20:09:04.548 [info] [127.0.0.1][c866474f][ManagementConnection] The client has reconnected.
+2023-12-06 20:09:37.643 [info] [127.0.0.1][dfac85c2][ExtensionHostConnection] The client has reconnected.
+2023-12-06 21:09:52.421 [info] [127.0.0.1][c866474f][ManagementConnection] The client has reconnected.
+2023-12-06 21:10:26.281 [info] [127.0.0.1][dfac85c2][ExtensionHostConnection] The client has reconnected.
+2023-12-06 22:10:41.045 [info] [127.0.0.1][c866474f][ManagementConnection] The client has reconnected.
+2023-12-06 22:11:13.845 [info] [127.0.0.1][dfac85c2][ExtensionHostConnection] The client has reconnected.
+2023-12-06 23:11:28.542 [info] [127.0.0.1][c866474f][ManagementConnection] The client has reconnected.
+2023-12-06 23:12:02.446 [info] [127.0.0.1][dfac85c2][ExtensionHostConnection] The client has reconnected.
+2023-12-07 00:12:15.465 [info] [127.0.0.1][dfac85c2][ExtensionHostConnection] The client has reconnected.
+2023-12-07 00:12:16.195 [info] [127.0.0.1][c866474f][ManagementConnection] The client has reconnected.
+2023-12-07 01:13:04.331 [info] [127.0.0.1][c866474f][ManagementConnection] The client has reconnected.
+2023-12-07 01:13:38.352 [info] [127.0.0.1][dfac85c2][ExtensionHostConnection] The client has reconnected.
+2023-12-07 02:13:52.241 [info] [127.0.0.1][c866474f][ManagementConnection] The client has reconnected.
+2023-12-07 02:14:25.999 [info] [127.0.0.1][dfac85c2][ExtensionHostConnection] The client has reconnected.
+2023-12-07 03:14:40.303 [info] [127.0.0.1][c866474f][ManagementConnection] The client has reconnected.
+2023-12-07 03:15:13.566 [info] [127.0.0.1][dfac85c2][ExtensionHostConnection] The client has reconnected.
+2023-12-07 04:15:29.342 [info] [127.0.0.1][c866474f][ManagementConnection] The client has reconnected.
+2023-12-07 04:16:03.382 [info] [127.0.0.1][dfac85c2][ExtensionHostConnection] The client has reconnected.
+2023-12-07 05:16:17.261 [info] [127.0.0.1][c866474f][ManagementConnection] The client has reconnected.
+2023-12-07 05:16:50.781 [info] [127.0.0.1][dfac85c2][ExtensionHostConnection] The client has reconnected.
+2023-12-07 06:17:05.287 [info] [127.0.0.1][c866474f][ManagementConnection] The client has reconnected.
+2023-12-07 06:17:39.395 [info] [127.0.0.1][dfac85c2][ExtensionHostConnection] The client has reconnected.
+2023-12-07 07:17:53.582 [info] [127.0.0.1][c866474f][ManagementConnection] The client has reconnected.
+2023-12-07 07:18:27.057 [info] [127.0.0.1][dfac85c2][ExtensionHostConnection] The client has reconnected.
+2023-12-07 08:18:41.145 [info] [127.0.0.1][c866474f][ManagementConnection] The client has reconnected.
+2023-12-07 08:19:14.691 [info] [127.0.0.1][dfac85c2][ExtensionHostConnection] The client has reconnected.
+2023-12-07 09:07:43.320 [info] [127.0.0.1][c866474f][ManagementConnection] The client has reconnected.
+2023-12-07 09:08:15.489 [info] [127.0.0.1][dfac85c2][ExtensionHostConnection] The client has reconnected.
+2023-12-07 10:51:30.106 [info] [127.0.0.1][c866474f][ManagementConnection] The client has reconnected.
+2023-12-07 10:51:38.671 [info] [127.0.0.1][dfac85c2][ExtensionHostConnection] The client has reconnected.
+2023-12-07 10:57:57.371 [info] [127.0.0.1][c866474f][ManagementConnection] The client has reconnected.
+2023-12-07 10:57:57.575 [info] [127.0.0.1][dfac85c2][ExtensionHostConnection] The client has reconnected.
+2023-12-07 13:27:37.177 [info] [127.0.0.1][dfac85c2][ExtensionHostConnection] The client has reconnected.
+2023-12-07 13:27:39.985 [info] [127.0.0.1][c866474f][ManagementConnection] The client has reconnected.
+2023-12-07 13:27:43.540 [info] [127.0.0.1][c866474f][ManagementConnection] The client has reconnected.
+2023-12-07 13:32:43.946 [info] [127.0.0.1][dfac85c2][ExtensionHostConnection] <6794> Extension Host Process exited with code: 0, signal: null.
+2023-12-07 13:32:43.946 [info] Last EH closed, waiting before shutting down
+2023-12-07 13:35:22.808 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-12-07 13:35:22.809 [info] Cancelling previous shutdown timeout
+2023-12-07 13:35:23.279 [info] [127.0.0.1][c866474f][ManagementConnection] The client has reconnected.
+2023-12-07 13:35:39.230 [error] [127.0.0.1][dfac85c2][ExtensionHostConnection] Unknown reconnection token (seen before).
+2023-12-07 13:40:22.809 [info] Last EH closed, shutting down

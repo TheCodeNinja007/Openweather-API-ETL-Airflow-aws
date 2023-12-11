@@ -1,0 +1,48 @@
+[2023-12-10T18:59:17.501+0000] {processor.py:157} INFO - Started process (PID=1796) to work on /home/ubuntu/airflow/dags/weather_dag.py
+[2023-12-10T18:59:17.504+0000] {processor.py:829} INFO - Processing file /home/ubuntu/airflow/dags/weather_dag.py for tasks to queue
+[2023-12-10T18:59:17.505+0000] {logging_mixin.py:154} INFO - [2023-12-10T18:59:17.505+0000] {dagbag.py:536} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/weather_dag.py
+[2023-12-10T18:59:18.128+0000] {logging_mixin.py:154} WARNING - /usr/local/lib/python3.10/dist-packages/airflow/models/baseoperator.py:437 AirflowProviderDeprecationWarning: Class `SimpleHttpOperator` is deprecated and will be removed in a future release. Please use `HttpOperator` instead.
+[2023-12-10T18:59:18.137+0000] {processor.py:839} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/ubuntu/airflow/dags/weather_dag.py
+[2023-12-10T18:59:18.145+0000] {logging_mixin.py:154} INFO - [2023-12-10T18:59:18.145+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-10T18:59:18.195+0000] {logging_mixin.py:154} INFO - [2023-12-10T18:59:18.195+0000] {dag.py:3722} INFO - Setting next_dagrun for weather_dag to 2023-12-11T00:00:00+00:00, run_after=2023-12-12T00:00:00+00:00
+[2023-12-10T18:59:18.229+0000] {processor.py:179} INFO - Processing /home/ubuntu/airflow/dags/weather_dag.py took 0.732 seconds
+[2023-12-10T19:00:06.608+0000] {processor.py:157} INFO - Started process (PID=2016) to work on /home/ubuntu/airflow/dags/weather_dag.py
+[2023-12-10T19:00:06.610+0000] {processor.py:829} INFO - Processing file /home/ubuntu/airflow/dags/weather_dag.py for tasks to queue
+[2023-12-10T19:00:06.611+0000] {logging_mixin.py:154} INFO - [2023-12-10T19:00:06.611+0000] {dagbag.py:536} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/weather_dag.py
+[2023-12-10T19:00:07.498+0000] {logging_mixin.py:154} WARNING - /usr/local/lib/python3.10/dist-packages/airflow/models/baseoperator.py:437 AirflowProviderDeprecationWarning: Class `SimpleHttpOperator` is deprecated and will be removed in a future release. Please use `HttpOperator` instead.
+[2023-12-10T19:00:07.508+0000] {processor.py:839} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/ubuntu/airflow/dags/weather_dag.py
+[2023-12-10T19:00:07.797+0000] {logging_mixin.py:154} INFO - [2023-12-10T19:00:07.797+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-10T19:00:07.822+0000] {logging_mixin.py:154} INFO - [2023-12-10T19:00:07.822+0000] {dag.py:3722} INFO - Setting next_dagrun for weather_dag to 2023-12-11T00:00:00+00:00, run_after=2023-12-12T00:00:00+00:00
+[2023-12-10T19:00:07.891+0000] {processor.py:179} INFO - Processing /home/ubuntu/airflow/dags/weather_dag.py took 1.291 seconds
+[2023-12-10T19:00:47.386+0000] {processor.py:157} INFO - Started process (PID=2356) to work on /home/ubuntu/airflow/dags/weather_dag.py
+[2023-12-10T19:00:47.388+0000] {processor.py:829} INFO - Processing file /home/ubuntu/airflow/dags/weather_dag.py for tasks to queue
+[2023-12-10T19:00:47.389+0000] {logging_mixin.py:154} INFO - [2023-12-10T19:00:47.388+0000] {dagbag.py:536} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/weather_dag.py
+[2023-12-10T19:00:47.668+0000] {logging_mixin.py:154} WARNING - /usr/local/lib/python3.10/dist-packages/airflow/models/baseoperator.py:437 AirflowProviderDeprecationWarning: Class `SimpleHttpOperator` is deprecated and will be removed in a future release. Please use `HttpOperator` instead.
+[2023-12-10T19:00:47.670+0000] {processor.py:839} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/ubuntu/airflow/dags/weather_dag.py
+[2023-12-10T19:00:47.772+0000] {logging_mixin.py:154} INFO - [2023-12-10T19:00:47.771+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-10T19:00:47.792+0000] {logging_mixin.py:154} INFO - [2023-12-10T19:00:47.792+0000] {dag.py:3722} INFO - Setting next_dagrun for weather_dag to 2023-12-11T00:00:00+00:00, run_after=2023-12-12T00:00:00+00:00
+[2023-12-10T19:00:47.950+0000] {processor.py:179} INFO - Processing /home/ubuntu/airflow/dags/weather_dag.py took 0.568 seconds
+[2023-12-10T19:01:22.528+0000] {processor.py:157} INFO - Started process (PID=2637) to work on /home/ubuntu/airflow/dags/weather_dag.py
+[2023-12-10T19:01:22.530+0000] {processor.py:829} INFO - Processing file /home/ubuntu/airflow/dags/weather_dag.py for tasks to queue
+[2023-12-10T19:01:22.531+0000] {logging_mixin.py:154} INFO - [2023-12-10T19:01:22.531+0000] {dagbag.py:536} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/weather_dag.py
+[2023-12-10T19:01:22.938+0000] {logging_mixin.py:154} WARNING - /usr/local/lib/python3.10/dist-packages/airflow/models/baseoperator.py:437 AirflowProviderDeprecationWarning: Class `SimpleHttpOperator` is deprecated and will be removed in a future release. Please use `HttpOperator` instead.
+[2023-12-10T19:01:22.940+0000] {processor.py:839} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/ubuntu/airflow/dags/weather_dag.py
+[2023-12-10T19:01:23.033+0000] {logging_mixin.py:154} INFO - [2023-12-10T19:01:23.032+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-10T19:01:23.248+0000] {logging_mixin.py:154} INFO - [2023-12-10T19:01:23.248+0000] {dag.py:3722} INFO - Setting next_dagrun for weather_dag to 2023-12-11T00:00:00+00:00, run_after=2023-12-12T00:00:00+00:00
+[2023-12-10T19:01:23.285+0000] {processor.py:179} INFO - Processing /home/ubuntu/airflow/dags/weather_dag.py took 0.761 seconds
+[2023-12-10T19:02:09.381+0000] {processor.py:157} INFO - Started process (PID=3167) to work on /home/ubuntu/airflow/dags/weather_dag.py
+[2023-12-10T19:02:09.383+0000] {processor.py:829} INFO - Processing file /home/ubuntu/airflow/dags/weather_dag.py for tasks to queue
+[2023-12-10T19:02:09.384+0000] {logging_mixin.py:154} INFO - [2023-12-10T19:02:09.384+0000] {dagbag.py:536} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/weather_dag.py
+[2023-12-10T19:02:09.670+0000] {logging_mixin.py:154} WARNING - /usr/local/lib/python3.10/dist-packages/airflow/models/baseoperator.py:437 AirflowProviderDeprecationWarning: Class `SimpleHttpOperator` is deprecated and will be removed in a future release. Please use `HttpOperator` instead.
+[2023-12-10T19:02:09.672+0000] {processor.py:839} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/ubuntu/airflow/dags/weather_dag.py
+[2023-12-10T19:02:09.899+0000] {logging_mixin.py:154} INFO - [2023-12-10T19:02:09.899+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-10T19:02:09.922+0000] {logging_mixin.py:154} INFO - [2023-12-10T19:02:09.922+0000] {dag.py:3722} INFO - Setting next_dagrun for weather_dag to 2023-12-11T00:00:00+00:00, run_after=2023-12-12T00:00:00+00:00
+[2023-12-10T19:02:09.944+0000] {processor.py:179} INFO - Processing /home/ubuntu/airflow/dags/weather_dag.py took 0.567 seconds
+[2023-12-10T19:02:54.446+0000] {processor.py:157} INFO - Started process (PID=3333) to work on /home/ubuntu/airflow/dags/weather_dag.py
+[2023-12-10T19:02:54.448+0000] {processor.py:829} INFO - Processing file /home/ubuntu/airflow/dags/weather_dag.py for tasks to queue
+[2023-12-10T19:02:54.449+0000] {logging_mixin.py:154} INFO - [2023-12-10T19:02:54.448+0000] {dagbag.py:536} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/weather_dag.py
+[2023-12-10T19:02:54.761+0000] {logging_mixin.py:154} WARNING - /usr/local/lib/python3.10/dist-packages/airflow/models/baseoperator.py:437 AirflowProviderDeprecationWarning: Class `SimpleHttpOperator` is deprecated and will be removed in a future release. Please use `HttpOperator` instead.
+[2023-12-10T19:02:54.763+0000] {processor.py:839} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/ubuntu/airflow/dags/weather_dag.py
+[2023-12-10T19:02:54.863+0000] {logging_mixin.py:154} INFO - [2023-12-10T19:02:54.862+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-10T19:02:55.020+0000] {logging_mixin.py:154} INFO - [2023-12-10T19:02:55.020+0000] {dag.py:3722} INFO - Setting next_dagrun for weather_dag to 2023-12-11T00:00:00+00:00, run_after=2023-12-12T00:00:00+00:00
+[2023-12-10T19:02:55.043+0000] {processor.py:179} INFO - Processing /home/ubuntu/airflow/dags/weather_dag.py took 0.600 seconds
